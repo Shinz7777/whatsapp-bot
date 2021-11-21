@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Urbaexyz/whatsapp-bot.git"
+    "url": "git+https://github.com/Shinz7777/whatsapp-bot.git"
   },
   "keywords": [
     "Whatsapp-Bot",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Urbaexyz/whatsapp-bot/issues"
   },
-  "homepage": "https://github.com/Urbaexyz/whatsapp-bot",
+  "homepage": "https://github.com/Shinz7777/whatsapp-bot",
   "dependencies": {
     "@open-wa/wa-automate": "^4.12.3",
     "app-root-path": "^3.0.0",
