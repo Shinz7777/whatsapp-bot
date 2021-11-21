@@ -255,7 +255,7 @@ module.exports = HandleMsg = async (urbae, message) => {
 		const StickerMetadatacrop = { author: authorstc, pack: packstc, keepScale: false }
 
 		// [IDENTIFY]
-		const ownerNumber = "62895334951166@c.us"
+		const ownerNumber = "6285695157547@c.us"
 		const errorImg = "https://i.ibb.co/DYLd6fk/baukrysie.jpg"
 		const isOwnerBot = ownerNumber.includes(pengirim)
 		const isOwner = ownerNumber.includes(pengirim)
@@ -285,7 +285,7 @@ module.exports = HandleMsg = async (urbae, message) => {
 			} else {
 				var pfp = ras
 			}
-			urbae.reply(from, 'ngapain tag Thoriq?\npc aja kali sabii', id).then(() => {
+			urbae.reply(from, 'ngapain tag Narendra?\npc aja kali sabii', id).then(() => {
 				urbae.sendFileFromUrl(ownerNumber, pfp, 'img.jpg', `*Note Call*\n\n*From:* ${pushname}\n*Group:* ${name}\n*Nomor:* wa.me/${serial.replace(/@c.us/g, '')}\n*Text:* ${chats}`)
 			})
 		}
