@@ -11,10 +11,10 @@ const HandleMsg = require('./HandleMsg')
 
 const start = async (urbae = new urbae()) => {
     console.log(color('------------------------------------------------------------------------', 'white'))
-    console.log(color(figlet.textSync('Urbaeexyz Bot', { font: 'Ghost', horizontalLayout: 'default' })))
+    console.log(color(figlet.textSync('Nerandra Bot', { font: 'Ghost', horizontalLayout: 'default' })))
     console.log(color('------------------------------------------------------------------------', 'white'))
-    console.log(color('[CREATOR]', 'aqua'), color('Thoriq Azzikra', 'magenta'))
-    console.log(color('[BOT]', 'aqua'), color('URBAE BOT is now Online!', 'magenta'))
+    console.log(color('[CREATOR]', 'aqua'), color('Fazal Narendra', 'magenta'))
+    console.log(color('[BOT]', 'aqua'), color('NERANDRA BOT is now Online!', 'magenta'))
     console.log(color('[VER]', 'aqua'), color('2.7.0', 'magenta'))
     urbae.onStateChanged((state) => {
         console.log(color('-> [STATE]'), state)
